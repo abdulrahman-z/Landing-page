@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./main.css"/>
+
+    <script type="text/javascript">
+        window.onload = () => {
+            const menuBtn = document.querySelector('.menu-icon');
+            const closeBtn =document.querySelector('.close');
+            const menu = document.querySelector('.menu-container');
+            const bodyContent = document.querySelector('body');
+          
+
+            menuBtn.addEventListener('click' , () => {
+                menu.classList.add('active');
+                menuBtn.classList.add('hide');
+                bodyContent.classList.add('no-scroll');
+            })
+
+            closeBtn.addEventListener('click' , () => {
+                menu.classList.remove('active');
+                menuBtn.classList.remove('hide');
+                bodyContent.classList.remove('no-scroll')
+            })
+    }
+
+    
+    </script>
+</head>
+<body>
+<!-- ************************nav***************************** -->
+    <nav class="navbar-main">
+        <div class="navbar-contents">
+            <div class="logo">
+                <a href="#">
+                    <img  src="./Images/task-logo.svg"/>
+                </a>
+            </div>
+            
+           
+            <div class='menu-icon'>
+                <span class="bar"></span>
+            </div>
+            <ul class="menu-container">
+                <i class="fa fa-times close"></i>
+                <li class="nav-link"><a href='#'  >Home</a>
+              
+                </li>
+                <li class="nav-link"><a href='#'>What we do?</a>
+                  </li>
+                <li class="nav-link"><a href='#'>Prevention</a>
+                  </li>
+                <li class="nav-link"><a href='#'>Symptoms</a>
+                  </li>
+                <li class="nav-link"><a href='#'>Contact us</a>
+                  </li>
+            </ul>
+        </div>
+    </nav>
+
+
+<!-- *************************************home *********************************-->
+
+    <section class="home-section">
+        <div class="home-contents">
+            <div class="left-contents">
+                <p class="danger-info">
+                <i class="fa fa-exclamation-triangle danger-icon"></i>
+                <span class="danger-text">COVID-19 ALERT</span>
+                </p>
+                <h1 class="bold-subhead">Together We fight COVID-19</h1>
+                <p class="description">
+                    Seque empowers you to get more done with intense focus and zero interruptions.
+                    Seque empowers you to get more done with intense focus and zero interruptions.
+                </p>
+                <div class="help-container">
+                    <button class="help-btn">Let us help</button>
+                </div>
+            </div>
+            <div class="right-contents">
+                <img src="./Images/amico.svg" class="right-image" alt='covid-vaccine'/>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+</body>
+</html>
