@@ -231,7 +231,7 @@ body.no-scroll{
 /**************************Info**********************************/
 
 .info-fluid{
-
+    width: 100%;
     .info-container{
         display: flex;
         align-items: center;
@@ -315,6 +315,134 @@ body.no-scroll{
         }
     }
 }
+
+
+
+/*********************action***************************/
+
+.action-fluid{
+    width: 100%;
+    margin-top: 50px;
+    .action-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content:space-between;
+        .action-left{
+           
+            img{
+                width: 100%;
+                height: auto;
+            }
+        }
+
+        .action-right{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: center;
+            padding-top: 15px;
+          .right-title{
+            font-weight: 600;
+            font-size: 36px;
+            line-height: 40px;            
+            letter-spacing: 0.02em;
+            color: #333333;
+          }
+
+          .line{
+              margin-top: 18.5px;
+                width: 153px;
+                background-color: #64CF83;
+              border: 3px solid #64CF83;
+          }
+            .action-msg{
+                padding-top: 32px;
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 32px;
+                letter-spacing: 0.02em;
+                color: #555555;
+              
+             
+            }
+            .action-points 
+            {
+                padding-top: 25px;  
+                   
+            
+                li{
+                    
+                    list-style-type: none;
+                    font-weight: 500;
+                    font-size: 20px;
+                    line-height: 32px;
+                    letter-spacing: 0.02em;
+                    color: #555555;
+                    padding-top: 10px;
+                    padding-left: 35px;
+                  
+                &::before{
+                    content: '';
+                    position: absolute;
+                    left: 0;
+                    background-image: url('./Images/virus.svg');
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                    height: 32px;
+                    width: 31px;
+                    z-index: -99;
+                }
+    
+
+                } 
+            }
+
+            .action-contact-round{
+                display: flex;
+                align-items: center;
+                margin-top: 30px;
+                border: 0;
+                background:#fff;
+                position: relative;
+                align-self: flex-start;
+              
+                button{
+                    position: absolute;
+                    top: 11px;
+                    left: 15.5px;
+                    z-index: 99;
+                    width: max-content;
+                    border: 0;
+                    background: #fff;
+                    bottom: 14px;
+                    font-weight: 500;
+                    font-size: 18px;
+                    line-height: 22px;
+                    color: #444444;
+                    cursor: pointer;
+
+                }
+
+            
+            }
+            
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -531,6 +659,50 @@ body.no-scroll{
             }
         }
     }
+
+
+/*****************************action*************************************/
+
+.action-fluid{
+
+    .action-container{
+
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .action-left{
+        width: 40%;
+       
+    }
+    .action-right{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width:50% ;
+       
+        .action-points{
+            display: flex;
+            flex-direction: column;
+            align-self: flex-start;
+            
+            li{
+                position: relative;
+                &::before{
+                    content: '';
+                    position: absolute;
+                    
+                }
+            }
+        }
+    }
+}
+
+
+
 }
 
 

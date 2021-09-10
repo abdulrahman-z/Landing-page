@@ -264,6 +264,10 @@ body.no-scroll {
 }
 
 /**************************Info**********************************/
+.info-fluid {
+  width: 100%;
+}
+
 .info-fluid .info-container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -392,6 +396,134 @@ body.no-scroll {
   font-size: 16px;
   line-height: 22px;
   color: #777777;
+}
+
+/*********************action***************************/
+.action-fluid {
+  width: 100%;
+  margin-top: 50px;
+}
+
+.action-fluid .action-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.action-fluid .action-container .action-left img {
+  width: 100%;
+  height: auto;
+}
+
+.action-fluid .action-container .action-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 15px;
+}
+
+.action-fluid .action-container .action-right .right-title {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 40px;
+  letter-spacing: 0.02em;
+  color: #333333;
+}
+
+.action-fluid .action-container .action-right .line {
+  margin-top: 18.5px;
+  width: 153px;
+  background-color: #64CF83;
+  border: 3px solid #64CF83;
+}
+
+.action-fluid .action-container .action-right .action-msg {
+  padding-top: 32px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: 0.02em;
+  color: #555555;
+}
+
+.action-fluid .action-container .action-right .action-points {
+  padding-top: 25px;
+}
+
+.action-fluid .action-container .action-right .action-points li {
+  list-style-type: none;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: 0.02em;
+  color: #555555;
+  padding-top: 10px;
+  padding-left: 35px;
+}
+
+.action-fluid .action-container .action-right .action-points li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  background-image: url("./Images/virus.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 32px;
+  width: 31px;
+  z-index: -99;
+}
+
+.action-fluid .action-container .action-right .action-contact-round {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 30px;
+  border: 0;
+  background: #fff;
+  position: relative;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+}
+
+.action-fluid .action-container .action-right .action-contact-round button {
+  position: absolute;
+  top: 11px;
+  left: 15.5px;
+  z-index: 99;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  border: 0;
+  background: #fff;
+  bottom: 14px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #444444;
+  cursor: pointer;
 }
 
 /********************************DESKTOP****************************/
@@ -627,6 +759,58 @@ body.no-scroll {
     font-size: 18px;
     line-height: 22px;
     color: #777777;
+  }
+  /*****************************action*************************************/
+  .action-fluid .action-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .action-fluid .action-left {
+    width: 40%;
+  }
+  .action-fluid .action-right {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    width: 50%;
+  }
+  .action-fluid .action-right .action-points {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+  }
+  .action-fluid .action-right .action-points li {
+    position: relative;
+  }
+  .action-fluid .action-right .action-points li::before {
+    content: '';
+    position: absolute;
   }
 }
 /*# sourceMappingURL=main.css.map */
