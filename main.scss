@@ -379,8 +379,9 @@ body.no-scroll{
                     line-height: 32px;
                     letter-spacing: 0.02em;
                     color: #555555;
-                    padding-top: 10px;
-                    padding-left: 35px;
+                    padding-bottom: 10px;
+                    padding-left: 56px;
+                   
                   
                 &::before{
                     content: '';
@@ -391,7 +392,7 @@ body.no-scroll{
                     background-size: contain;
                     height: 32px;
                     width: 31px;
-                    z-index: -99;
+                    display: inline-block;
                 }
     
 
@@ -685,17 +686,10 @@ body.no-scroll{
         width:50% ;
        
         .action-points{
-            display: flex;
-            flex-direction: column;
-            align-self: flex-start;
             
             li{
                 position: relative;
-                &::before{
-                    content: '';
-                    position: absolute;
-                    
-                }
+               
             }
         }
     }
