@@ -526,6 +526,129 @@ body.no-scroll {
   cursor: pointer;
 }
 
+/***********************************Prevention*********************************/
+.prevention-fluid {
+  width: 100%;
+  margin-top: 50px;
+}
+
+.prevention-fluid .prevention-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.prevention-fluid .prevention-container .title-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.prevention-fluid .prevention-container .title-container .main-title {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #333333;
+}
+
+.prevention-fluid .prevention-container .title-container .prevention-line {
+  margin-top: 20px;
+  border: 3px solid #64CF83;
+  width: 115px;
+  background: #64CF83;
+}
+
+.prevention-fluid .prevention-container .prevention-info {
+  padding-top: 30px;
+}
+
+.prevention-fluid .prevention-container .prevention-info .message {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #555555;
+}
+
+.prevention-fluid .prevention-container .cards-container {
+  padding-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.prevention-fluid .prevention-container .cards-container .mask-card, .prevention-fluid .prevention-container .cards-container .wash-card, .prevention-fluid .prevention-container .cards-container .distance-card {
+  margin-top: 30px;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 0px 44px -5px rgba(102, 102, 102, 0.1);
+          box-shadow: 0px 0px 44px -5px rgba(102, 102, 102, 0.1);
+  border-radius: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 330px;
+  margin-bottom: 20px;
+}
+
+.prevention-fluid .prevention-container .cards-container .mask-card .sub-heading, .prevention-fluid .prevention-container .cards-container .wash-card .sub-heading, .prevention-fluid .prevention-container .cards-container .distance-card .sub-heading {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+}
+
+.prevention-fluid .prevention-container .cards-container .mask-card .card-text, .prevention-fluid .prevention-container .cards-container .wash-card .card-text, .prevention-fluid .prevention-container .cards-container .distance-card .card-text {
+  text-align: left;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 28px;
+  letter-spacing: 0.01em;
+  color: #777777;
+  padding: 10px 40px 25px 40px;
+}
+
+.prevention-fluid .prevention-container .cards-container .mask-card img, .prevention-fluid .prevention-container .cards-container .wash-card img, .prevention-fluid .prevention-container .cards-container .distance-card img {
+  position: relative;
+  top: -40px;
+}
+
 /********************************DESKTOP****************************/
 @media screen and (min-width: 768px) {
   .menu-icon {
@@ -649,116 +772,23 @@ body.no-scroll {
   .info-fluid .info-container {
     max-width: 1200px;
     margin: 0 auto;
-    background: #FFFFFF;
-    -webkit-box-shadow: 0px 0px 57px -7px rgba(119, 119, 119, 0.12);
-            box-shadow: 0px 0px 57px -7px rgba(119, 119, 119, 0.12);
-    border-radius: 24px;
   }
   .info-fluid .info-container .details-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+    padding-top: 40px;
+    width: 90%;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
     -webkit-box-pack: space-evenly;
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
-    width: 90%;
-    padding-top: 40px;
-  }
-  .info-fluid .info-container .details-container .group1, .info-fluid .info-container .details-container .group2, .info-fluid .info-container .details-container .group3, .info-fluid .info-container .details-container .group4 {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-  .info-fluid .info-container .details-container .title {
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 24px;
-    text-align: center;
-    color: #555555;
-  }
-  .info-fluid .info-container .details-container .count {
-    padding-top: 10px;
-    font-size: 28px;
-    line-height: 34px;
-    letter-spacing: 0.03em;
-    color: #484848;
-    font-weight: 600;
-  }
-  .info-fluid .info-container .details-container .detail {
-    padding-top: 11px;
-    font-size: 18px;
-    line-height: 22px;
-    color: #777777;
-    font-weight: 500;
-    text-align: center;
-  }
-  .info-fluid .info-container .details-container .group3 .count {
-    color: #64CF82;
-  }
-  .info-fluid .info-container .details-container .group4 .count {
-    color: #ff0000;
-  }
-  .info-fluid .info-container .bottom-container {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-  .info-fluid .info-container .bottom-container .contents {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  .info-fluid .info-container .bottom-container .contents img {
-    border-radius: 2px;
-  }
-  .info-fluid .info-container .bottom-container .contents .country {
-    padding-left: 22px;
-    font-size: 18px;
-    line-height: 22px;
-    color: #777777;
-  }
-  .info-fluid .info-container .bottom-container .contents .operator {
-    padding-left: 10px;
-    color: #777777;
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 17px;
-  }
-  .info-fluid .info-container .bottom-container .date-info {
-    padding-left: 13px;
-    font-size: 18px;
-    line-height: 22px;
-    color: #777777;
   }
   /*****************************action*************************************/
   .action-fluid .action-container {
@@ -796,6 +826,44 @@ body.no-scroll {
   }
   .action-fluid .action-right .action-points li {
     position: relative;
+  }
+  /********************************************Prevention*********************************/
+  .prevention-fluid .prevention-container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .prevention-fluid .prevention-container .cards-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    margin: 0;
+    padding-top: 50px;
+    width: 100%;
+  }
+  .prevention-fluid .prevention-container .prevention-info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-left: 58px;
+    padding-right: 58px;
   }
 }
 /*# sourceMappingURL=main.css.map */

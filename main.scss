@@ -433,8 +433,89 @@ body.no-scroll{
 }
 
 
+/***********************************Prevention*********************************/
 
+.prevention-fluid{
+    width: 100%;
+    margin-top: 50px;
+    .prevention-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        .title-container{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
 
+            .main-title{
+                font-weight: 600;
+                font-size: 36px;
+                line-height: 40px;
+                text-align: center;
+                letter-spacing: 0.02em;
+                color: #333333;
+            }
+            .prevention-line{
+                margin-top: 20px;
+                border: 3px solid #64CF83;
+                width: 115px;
+                background: #64CF83;
+            }
+        }
+        .prevention-info{
+            padding-top: 30px;
+            .message{
+              
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 32px;
+                text-align: center;
+                letter-spacing: 0.02em;
+                color: #555555;
+            }
+        }
+        .cards-container{
+            padding-top: 40px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;            
+
+            .mask-card,.wash-card,.distance-card{
+                margin-top: 30px;
+                background: #FFFFFF;
+                box-shadow: 0px 0px 44px -5px rgba(102, 102, 102, 0.1);
+                border-radius: 25px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                width: 330px;
+                margin-bottom: 20px;
+                .sub-heading{
+                    font-weight: 600;
+                    font-size: 20px;
+                    line-height: 32px;
+                    text-align: center;
+                }
+                .card-text{
+                    text-align: left;
+                    font-weight: 500;
+                    font-size: 14px;
+                    line-height: 28px;
+                    letter-spacing: 0.01em;
+                    color: #777777;
+                    padding: 10px 40px 25px 40px;
+                }
+
+                img{
+                    position: relative;
+                    top: -40px;
+                }
+            }
+        }
+    }
+}
 
 
 
@@ -574,89 +655,14 @@ body.no-scroll{
         .info-container{
             max-width: 1200px;
             margin: 0 auto;
-            background: #FFFFFF;
-            box-shadow: 0px 0px 57px -7px rgba(119, 119, 119, 0.12);
-            border-radius: 24px;
-           
             .details-container{
-                flex-direction: row;
                 display: flex;
+                flex-direction: row;
+                padding-top: 40px;
+                width:90%;
                 align-items: center;
                 justify-content: space-evenly;
-               
-                width: 90%;
-                padding-top: 40px;
-                
-                .group1,.group2,.group3,.group4{
-                    display: flex;
-                    flex-direction:column;
-                    align-items: center;
-                    justify-content: center;
-                   
-                }
-                    .title{
-                        font-size: 20px;
-                        font-weight: 500;
-                        line-height: 24px;
-                        text-align: center;
-                        color: #555555;
-                    }
-                    .count{
-                        padding-top: 10px;
-                        font-size: 28px;
-                        line-height: 34px;
-                        letter-spacing: 0.03em;
-                        color: #484848;
-                        font-weight: 600;
-                    }
-                    .detail{
-                        padding-top: 11px;
-                        font-size: 18px;
-                        line-height: 22px;
-                        color: #777777;
-                        font-weight: 500;
-                        text-align: center;
-                    }
-                .group3 .count{
-                    color:#64CF82;
-                }
-                .group4 .count{
-                    color: #ff0000;
-                }
-            }
-
-            .bottom-container{
-                display: flex;
-                flex-direction: row;
-                align-items: center;
-                justify-content: center;
-                
-                .contents{
-                    display: flex;
-                    align-items: center;
-                        img{
-                        border-radius: 2px;
-                    }
-                    .country{
-                        padding-left: 22px;
-                        font-size: 18px;
-                        line-height: 22px;
-                        color: #777777;
-                    }
-                    .operator{
-                        padding-left: 10px;
-                        color: #777777;
-                        font-size: 14px;
-                        font-weight: 500;
-                        line-height: 17px;
-                    }
-                }
-                .date-info{
-                    padding-left: 13px;
-                    font-size: 18px;
-                    line-height: 22px;
-                    color: #777777;
-                }
+              
             }
         }
     }
@@ -695,7 +701,35 @@ body.no-scroll{
     }
 }
 
+/********************************************Prevention*********************************/
 
+.prevention-fluid{
+
+    .prevention-container{
+        max-width: 1200px;
+        margin: 0 auto;
+     
+        .cards-container{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-evenly;
+            margin: 0;
+            padding-top: 50px;
+            width: 100%;
+            }
+        
+
+        .prevention-info{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding-left:58px;
+            padding-right: 58px;
+        }
+    }
+}
 
 }
 
