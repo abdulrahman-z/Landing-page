@@ -730,6 +730,266 @@ body.no-scroll {
   height: auto;
 }
 
+/****************************contact***************************/
+.contact-fluid {
+  width: 100%;
+  background: linear-gradient(339.88deg, #64CF83 47.7%, #FFFFFF 47.71%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-bottom: 60px;
+}
+
+.contact-fluid .contact-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #FFFFFF;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-shadow: 0px 29px 0px -14px #5BC378, 0px 52px 0px -24px #4DB76B, 0px 0px 50px -1px rgba(82, 82, 82, 0.1);
+          box-shadow: 0px 29px 0px -14px #5BC378, 0px 52px 0px -24px #4DB76B, 0px 0px 50px -1px rgba(82, 82, 82, 0.1);
+  border-radius: 40px;
+  padding-bottom: 53px;
+}
+
+.contact-fluid .contact-container .title-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-top: 60px;
+}
+
+.contact-fluid .contact-container .title-section .main-title {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #333333;
+}
+
+.contact-fluid .contact-container .title-section .line {
+  margin-top: 20px;
+  width: 145px;
+  border: 3px solid #64CF83;
+  background: #64CF83;
+}
+
+.contact-fluid .contact-container .help-message {
+  padding-top: 26px;
+  width: 80%;
+}
+
+.contact-fluid .contact-container .help-message .message {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #777777;
+}
+
+.contact-fluid .contact-container .help-image {
+  padding-top: 50px;
+}
+
+.contact-fluid .contact-container .help-image img {
+  width: 100%;
+  height: auto;
+}
+
+.contact-fluid .contact-container .contact-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding-top: 50px;
+  width: 80%;
+}
+
+.contact-fluid .contact-container .contact-info .left-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.contact-fluid .contact-container .contact-info .left-section .item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 45px;
+}
+
+.contact-fluid .contact-container .contact-info .left-section .item .person {
+  padding-left: 15px;
+}
+
+.contact-fluid .contact-container .contact-info .left-section .item .person .name {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: #555555;
+}
+
+.contact-fluid .contact-container .contact-info .left-section .item .person .mobile {
+  padding-top: 7px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #555555;
+}
+
+.contact-fluid .contact-container .contact-info .right-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contact-fluid .contact-container .contact-info .right-section .right-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.contact-fluid .contact-container .contact-info .right-section .right-form .input-box {
+  margin-bottom: 25px;
+  background: #F4F4F4;
+  opacity: 0.5;
+  border-radius: 12px;
+  height: 65px;
+  position: relative;
+}
+
+.contact-fluid .contact-container .contact-info .right-section .right-form .input-box input {
+  padding: 22px 0 21px 25px;
+  font-size: 20px;
+  line-height: 22px;
+  color: #777777;
+  background: #F4F4F4;
+  border: 0;
+  outline: 0;
+}
+
+.contact-fluid .contact-container .contact-info .right-section .right-form .input-box .icon {
+  position: absolute;
+  right: 25px;
+  top: 25px;
+}
+
+.contact-fluid .contact-container .contact-info .right-section .right-form .help-box {
+  margin-bottom: 25px;
+  background: #F4F4F4;
+  opacity: 0.5;
+  border-radius: 12px;
+  height: 150px;
+  position: relative;
+}
+
+.contact-fluid .contact-container .contact-info .right-section .right-form .help-box .help-text {
+  padding: 22px 0 21px 25px;
+  font-size: 20px;
+  line-height: 22px;
+  color: #777777;
+  background: #F4F4F4;
+  border: 0;
+  outline: 0;
+}
+
+.contact-fluid .contact-container .contact-info .right-section .right-form .help-box .icon {
+  position: absolute;
+  right: 25px;
+  top: 25px;
+}
+
+.contact-fluid .contact-container .contact-info .right-section .contact-round {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 30px;
+  border: 0;
+  background: #fff;
+  position: relative;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+}
+
+.contact-fluid .contact-container .contact-info .right-section .contact-round button {
+  position: absolute;
+  top: 11px;
+  left: 15.5px;
+  z-index: 99;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  border: 0;
+  background: #fff;
+  bottom: 14px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #444444;
+  cursor: pointer;
+}
+
 /********************************DESKTOP****************************/
 @media screen and (min-width: 768px) {
   .menu-icon {
@@ -951,6 +1211,33 @@ body.no-scroll {
     max-width: 1200px;
     margin: 0 auto;
     width: 854px;
+  }
+  /**************************************contact*****************************/
+  .contact-fluid .contact-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .contact-fluid .contact-container .contact-info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    padding-top: 50px;
+  }
+  .contact-fluid .contact-container .contact-info .right-section .right-form .input-box, .contact-fluid .contact-container .contact-info .right-section .right-form .help-box {
+    width: 380px;
   }
 }
 /*# sourceMappingURL=main.css.map */
