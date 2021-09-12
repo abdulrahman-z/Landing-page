@@ -649,6 +649,87 @@ body.no-scroll {
   top: -40px;
 }
 
+/*****************************symptoms********************************************/
+.symptoms-fluid {
+  width: 100%;
+  margin-top: 50px;
+  padding-bottom: 51px;
+}
+
+.symptoms-fluid .symptoms-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.symptoms-fluid .symptoms-container .main-title-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.symptoms-fluid .symptoms-container .main-title-container .main-title {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #333333;
+}
+
+.symptoms-fluid .symptoms-container .main-title-container .line {
+  margin-top: 20px;
+  width: 112px;
+  border: 3px solid #64CF83;
+  background-color: #64CF83;
+}
+
+.symptoms-fluid .symptoms-container .symptoms-message {
+  padding-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.symptoms-fluid .symptoms-container .symptoms-message .message {
+  text-align: center;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #777777;
+}
+
+.symptoms-fluid .symptoms-container .symptoms-img {
+  padding-top: 50px;
+}
+
+.symptoms-fluid .symptoms-container .symptoms-img img {
+  width: 100%;
+  height: auto;
+}
+
 /********************************DESKTOP****************************/
 @media screen and (min-width: 768px) {
   .menu-icon {
@@ -864,6 +945,12 @@ body.no-scroll {
             justify-content: center;
     padding-left: 58px;
     padding-right: 58px;
+  }
+  /************************symptoms********************/
+  .symptoms-fluid .symptoms-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 854px;
   }
 }
 /*# sourceMappingURL=main.css.map */

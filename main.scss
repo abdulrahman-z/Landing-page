@@ -518,8 +518,62 @@ body.no-scroll{
 }
 
 
+/*****************************symptoms********************************************/
 
-
+.symptoms-fluid{
+    width: 100%;
+    margin-top: 50px;
+    padding-bottom: 51px;
+    .symptoms-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      
+        .main-title-container{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .main-title{
+                font-weight: 600;
+                font-size: 36px;
+                line-height: 40px;
+                text-align: center;
+                letter-spacing: 0.02em;
+                color: #333333;
+            }
+            .line{
+                margin-top: 20px;
+                width: 112px;
+                border: 3px solid #64CF83;
+                background-color: #64CF83;
+            }
+        }
+        .symptoms-message{
+            padding-top: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .message{
+              
+                text-align: center;
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 32px;
+                text-align: center;
+                letter-spacing: 0.02em;
+                color: #777777;
+            }
+        }
+        .symptoms-img{
+            padding-top: 50px;
+                img{
+                    width:100%;
+                    height: auto;
+                }
+            }
+        
+    }
+}
 
 
 
@@ -730,6 +784,17 @@ body.no-scroll{
         }
     }
 }
+
+
+/************************symptoms********************/
+    .symptoms-fluid{
+
+        .symptoms-container{
+            max-width: 1200px;
+            margin: 0 auto;
+            width: 854px;
+        }
+    }
 
 }
 
