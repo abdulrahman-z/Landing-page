@@ -8,6 +8,7 @@
 
 body {
   font-family: 'Inter', sans-serif;
+  padding: 0 15px;
 }
 
 body.no-scroll {
@@ -119,11 +120,8 @@ body.no-scroll {
 
 .menu-icon {
   display: block;
-  position: relative;
   height: 30px;
   width: 30px;
-  right: 30px;
-  top: 50%;
 }
 
 .menu-icon .bar {
@@ -223,7 +221,7 @@ body.no-scroll {
 
 .home-section .home-contents .left-contents .bold-subhead {
   text-align: center;
-  font-size: 39px;
+  font-size: 32px;
   font-weight: 700;
   line-height: 56px;
 }
@@ -376,15 +374,19 @@ body.no-scroll {
           align-items: center;
 }
 
+.info-fluid .info-container .bottom-container .contents img {
+  padding-left: 3px;
+}
+
 .info-fluid .info-container .bottom-container .contents .country {
-  padding-left: 12px;
-  font-size: 18px;
+  padding-left: 10px;
+  font-size: 14px;
   line-height: 22px;
   color: #777777;
 }
 
 .info-fluid .info-container .bottom-container .contents .operator {
-  padding-left: 10px;
+  padding-left: 6px;
   color: #777777;
   font-size: 14px;
   font-weight: 500;
@@ -393,7 +395,7 @@ body.no-scroll {
 
 .info-fluid .info-container .bottom-container .date-info {
   padding-left: 8px;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 22px;
   color: #777777;
 }
@@ -460,7 +462,7 @@ body.no-scroll {
 .action-fluid .action-container .action-right .action-msg {
   padding-top: 32px;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 32px;
   letter-spacing: 0.02em;
   color: #555555;
@@ -478,13 +480,13 @@ body.no-scroll {
   letter-spacing: 0.02em;
   color: #555555;
   padding-bottom: 10px;
-  padding-left: 56px;
+  padding-left: 55px;
 }
 
 .action-fluid .action-container .action-right .action-points li::before {
   content: '';
   position: absolute;
-  left: 0;
+  left: 15px;
   background-image: url("./Images/virus.svg");
   background-repeat: no-repeat;
   background-size: contain;
@@ -586,7 +588,7 @@ body.no-scroll {
 
 .prevention-fluid .prevention-container .prevention-info .message {
   font-weight: 500;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 32px;
   text-align: center;
   letter-spacing: 0.02em;
@@ -623,7 +625,7 @@ body.no-scroll {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 330px;
+  max-width: 330px;
   margin-bottom: 20px;
 }
 
@@ -632,6 +634,7 @@ body.no-scroll {
   font-size: 20px;
   line-height: 32px;
   text-align: center;
+  padding-top: 19.3px;
 }
 
 .prevention-fluid .prevention-container .cards-container .mask-card .card-text, .prevention-fluid .prevention-container .cards-container .wash-card .card-text, .prevention-fluid .prevention-container .cards-container .distance-card .card-text {
@@ -645,8 +648,7 @@ body.no-scroll {
 }
 
 .prevention-fluid .prevention-container .cards-container .mask-card img, .prevention-fluid .prevention-container .cards-container .wash-card img, .prevention-fluid .prevention-container .cards-container .distance-card img {
-  position: relative;
-  top: -40px;
+  margin-top: -40px;
 }
 
 /*****************************symptoms********************************************/
@@ -714,7 +716,7 @@ body.no-scroll {
 .symptoms-fluid .symptoms-container .symptoms-message .message {
   text-align: center;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 32px;
   text-align: center;
   letter-spacing: 0.02em;
@@ -807,7 +809,7 @@ body.no-scroll {
 
 .contact-fluid .contact-container .help-message .message {
   font-weight: 500;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 32px;
   text-align: center;
   letter-spacing: 0.02em;
@@ -864,7 +866,7 @@ body.no-scroll {
 
 .contact-fluid .contact-container .contact-info .left-section .item .person .name {
   font-weight: 500;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 22px;
   text-transform: uppercase;
   color: #555555;
@@ -873,7 +875,7 @@ body.no-scroll {
 .contact-fluid .contact-container .contact-info .left-section .item .person .mobile {
   padding-top: 7px;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 22px;
   color: #555555;
 }
@@ -918,12 +920,13 @@ body.no-scroll {
 
 .contact-fluid .contact-container .contact-info .right-section .right-form .input-box input {
   padding: 22px 0 21px 25px;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 22px;
   color: #777777;
   background: #F4F4F4;
   border: 0;
   outline: 0;
+  width: 80%;
 }
 
 .contact-fluid .contact-container .contact-info .right-section .right-form .input-box .icon {
@@ -943,12 +946,13 @@ body.no-scroll {
 
 .contact-fluid .contact-container .contact-info .right-section .right-form .help-box .help-text {
   padding: 22px 0 21px 25px;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 22px;
   color: #777777;
   background: #F4F4F4;
   border: 0;
   outline: 0;
+  width: 80%;
 }
 
 .contact-fluid .contact-container .contact-info .right-section .right-form .help-box .icon {

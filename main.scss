@@ -7,6 +7,7 @@
 
 body{
     font-family: 'Inter', sans-serif;
+    padding:0 15px;
 }
 
 body.no-scroll{
@@ -111,11 +112,10 @@ body.no-scroll{
 }
 .menu-icon{
     display: block;
-    position: relative;
     height: 30px;
     width: 30px;
-    right: 30px;
-    top: 50%;
+
+
     .bar{
         position: relative;
         height: 4px;
@@ -190,7 +190,7 @@ body.no-scroll{
             } 
             .bold-subhead{
                 text-align: center;
-                font-size: 39px;
+                font-size: 32px;
                 font-weight: 700;
                 line-height: 56px;
             }
@@ -292,14 +292,17 @@ body.no-scroll{
             .contents{
                 display: flex;
                 align-items: center;
+                img{
+                    padding-left: 3px;
+                }
                 .country{
-                    padding-left: 12px;
-                    font-size: 18px;
+                    padding-left: 10px;
+                    font-size: 14px;
                     line-height: 22px;
                     color: #777777;
                 }
                 .operator{
-                    padding-left: 10px;
+                    padding-left: 6px;
                     color: #777777;
                     font-size: 14px;
                     font-weight: 500;
@@ -308,7 +311,7 @@ body.no-scroll{
             }
             .date-info{
                 padding-left: 8px;
-                font-size: 16px;
+                font-size: 14px;
                 line-height: 22px;
                 color: #777777;
             }
@@ -359,7 +362,7 @@ body.no-scroll{
             .action-msg{
                 padding-top: 32px;
                 font-weight: 500;
-                font-size: 20px;
+                font-size: 16px;
                 line-height: 32px;
                 letter-spacing: 0.02em;
                 color: #555555;
@@ -380,13 +383,13 @@ body.no-scroll{
                     letter-spacing: 0.02em;
                     color: #555555;
                     padding-bottom: 10px;
-                    padding-left: 56px;
+                    padding-left: 55px;
                    
                   
                 &::before{
                     content: '';
                     position: absolute;
-                    left: 0;
+                    left: 15px;
                     background-image: url('./Images/virus.svg');
                     background-repeat: no-repeat;
                     background-size: contain;
@@ -469,7 +472,7 @@ body.no-scroll{
             .message{
               
                 font-weight: 500;
-                font-size: 20px;
+                font-size: 16px;
                 line-height: 32px;
                 text-align: center;
                 letter-spacing: 0.02em;
@@ -490,13 +493,14 @@ body.no-scroll{
                 display: flex;
                 flex-direction: column;
                 align-items: center;
-                width: 330px;
+                max-width: 330px;
                 margin-bottom: 20px;
                 .sub-heading{
                     font-weight: 600;
                     font-size: 20px;
                     line-height: 32px;
                     text-align: center;
+                    padding-top: 19.3px;
                 }
                 .card-text{
                     text-align: left;
@@ -509,8 +513,7 @@ body.no-scroll{
                 }
 
                 img{
-                    position: relative;
-                    top: -40px;
+                    margin-top: -40px;
                 }
             }
         }
@@ -557,7 +560,7 @@ body.no-scroll{
               
                 text-align: center;
                 font-weight: 500;
-                font-size: 20px;
+                font-size: 16px;
                 line-height: 32px;
                 text-align: center;
                 letter-spacing: 0.02em;
@@ -623,7 +626,7 @@ body.no-scroll{
           width:80%;
             .message{
                 font-weight: 500;
-                font-size: 20px;
+                font-size: 16px;
                 line-height: 32px;
                 text-align: center;
                 letter-spacing: 0.02em;
@@ -658,7 +661,7 @@ body.no-scroll{
                     
                     .name{
                         font-weight: 500;
-                        font-size: 18px;
+                        font-size: 16px;
                         line-height: 22px;
                         text-transform: uppercase;
                         color: #555555;
@@ -666,7 +669,7 @@ body.no-scroll{
                     .mobile{
                         padding-top: 7px;
                         font-weight: 500;
-                        font-size: 18px;
+                        font-size: 16px;
                         line-height: 22px;
                     
                         color: #555555;
@@ -695,12 +698,13 @@ body.no-scroll{
                         position: relative;
                         input{
                             padding:22px 0 21px 25px;
-                            font-size: 20px;
+                            font-size: 18px;
                             line-height: 22px;
                             color: #777777;
                             background: #F4F4F4;
                             border: 0;
                             outline: 0;
+                            width: 80%;
                         }
                         .icon{
                            position: absolute;
@@ -721,13 +725,14 @@ body.no-scroll{
                      .help-text{
                        
                          padding:22px 0 21px 25px;
-                         font-size: 20px;
+                         font-size: 18px;
                          line-height: 22px;
                          color: #777777;
                          background: #F4F4F4;
                          border: 0;
                          outline: 0;
-                         
+                         width: 80%;
+                   
                      }
                      .icon{
                          position:absolute;
@@ -789,6 +794,7 @@ body.no-scroll{
 
 @media screen and(min-width:768px){
 
+  
     .menu-icon{
         display: none;
     }
