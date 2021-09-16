@@ -13,19 +13,19 @@
             const menuBtn = document.querySelector('.menu-icon');
             const closeBtn =document.querySelector('.close');
             const menu = document.querySelector('.menu-container');
-            const bodyContent = document.querySelector('body');
+          
           
 
             menuBtn.addEventListener('click' , () => {
                 menu.classList.add('active');
                 menuBtn.classList.add('hide');
-                bodyContent.classList.add('no-scroll');
+       
             })
 
             closeBtn.addEventListener('click' , () => {
                 menu.classList.remove('active');
                 menuBtn.classList.remove('hide');
-                bodyContent.classList.remove('no-scroll')
+      
             })
     }
 

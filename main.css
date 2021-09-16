@@ -11,10 +11,6 @@ body {
   padding: 0 15px;
 }
 
-body.no-scroll {
-  overflow: hidden;
-}
-
 /**********************************Nav************************/
 .navbar-main .navbar-contents {
   display: -webkit-box;
@@ -33,7 +29,7 @@ body.no-scroll {
 }
 
 .navbar-main .navbar-contents .logo img {
-  height: 67px;
+  height: 50px;
 }
 
 .menu-container {
@@ -116,12 +112,14 @@ body.no-scroll {
 .close {
   font-size: 32px;
   color: #44B564;
+  cursor: pointer;
 }
 
 .menu-icon {
   display: block;
   height: 30px;
   width: 30px;
+  cursor: pointer;
 }
 
 .menu-icon .bar {
@@ -1018,6 +1016,9 @@ body.no-scroll {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
+  }
+  .navbar-main .navbar-contents .logo img {
+    height: 67px;
   }
   .navbar-main .navbar-contents .menu-container {
     position: initial;
